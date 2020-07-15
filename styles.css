@@ -1,0 +1,204 @@
+body {
+    margin: 0;
+}
+
+.navbar {
+    width: 100%;
+    height: 6%;
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    top:0;
+    float: left;
+}
+
+.divForm {
+    width: 50%;
+    display: inline;
+    position: fixed;
+    top:0;
+    left: 30%;
+}
+
+ul.leftPart {
+    display: inline-flex;
+    margin: 0;
+    align-content: center;
+    align-items: center;
+    width: 300px;
+}
+
+ul.rightPart {
+    display: inline-flex;
+    float: right;
+    margin-top: 10px;
+    align-content: center;
+    align-items: center;
+    width: 300px;
+    z-index: 100;
+    justify-content: flex-end;
+}
+
+li {
+  display: inline;
+  float:left;
+  margin: 0 10px 0 10px;
+  height: auto;
+}
+
+input {
+    align-self:center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    display: inline-block;
+    width: 65%;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    z-index: 10;
+    float: left;
+}
+
+input[type=submit] {
+    width: 7%;
+    box-sizing: border-box;
+    float: left;
+    background-image: url(images/search_icon.png);
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    padding-left: 20px;
+  }
+
+.container {
+    margin-top: 60px;
+    background-color: hsla(0, 0%, 86%, 1);
+}
+
+.suggested {
+    float: right;
+    display: inline-flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* height: 100%; */
+    height: 1000px;
+    width: 25%;
+
+}
+
+.videoItem {
+    display: block;
+    width: 100%;
+    height: 10%;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+img.imgVideo {
+    float: left;
+    max-width: 39%;
+}
+
+.videoDescription {
+   display: flex; 
+   flex-direction: column;
+}
+
+p.videoTitle {
+ font-weight: bold;
+ margin:0;
+}
+
+p.videoInfo {
+    color: grey;
+    margin: 5px 0 5px 0;
+    font-size: 15px;
+}
+
+.main {
+    float: left;
+    display: inline-flex;
+    margin: 0px 20px 40px 60px;
+    flex-flow: column wrap;
+    height: 2500px;
+    width: 70%;
+}
+
+.video {
+    display: block
+    width: 100%;
+    height: 700px;
+}
+
+h4 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+p.mainDescription {
+    display: inline;
+    color: grey;
+}
+
+.mainTitle {
+    width: 100%;
+    height: 50px;
+}
+
+.mainProfile {
+    width: 100%;
+    height: auto;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    padding: 10px;
+}
+
+img.avatar {
+    display: block;
+    margin-right: 20px;
+}
+
+.mainComments {
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    
+    
+}
+
+.commentItem {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-height: 15%;
+    margin-top: 20px;
+}
+
+.commentButtons{
+    width: 100%;
+}
+
+.commentForm { 
+    width: 100%;
+    display: block;
+}
+
+#newComment {
+    border: none;
+    border-bottom: 1px solid grey;
+    width: 100%;
+}
+
+
+
+
